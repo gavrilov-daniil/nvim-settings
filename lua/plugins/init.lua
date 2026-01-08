@@ -1,6 +1,6 @@
 local plugins = {
   { "folke/tokyonight.nvim", priority = 1000, config = function()
-      vim.cmd.colorscheme("tokyonight")
+      vim.cmd.colorscheme("tokyonight-moon")
     end
   },
 
@@ -74,6 +74,7 @@ local plugins = {
 
   require("plugins.glow"),
   require("plugins.luasnip"),
+  require("plugins.neo-tree"),
 
   -- obsidian.nvim вынесен отдельно
   require("plugins.obsidian"),

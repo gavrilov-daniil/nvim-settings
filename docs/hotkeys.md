@@ -25,5 +25,8 @@
 - `<leader>fg` — `:Telescope live_grep`
 - `<leader>fb` — `:Telescope buffers`
 
+## Файловый менеджер
+- `<leader>e` — `:Neotree toggle`
+
 ## Markdown Preview
 - `<leader>mp` — `:Glow`
