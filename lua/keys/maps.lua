@@ -27,7 +27,6 @@ wk.add({
   { "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Поиск текста" },
   { "<leader>fb", "<cmd>Telescope buffers<cr>", desc = "Буферы" },
 
-  { "<leader>mp", "<cmd>MarkdownPreviewToggle<cr>", desc = "Markdown Preview" },
   { "<leader>mp", "<cmd>Glow<cr>", desc = "Markdown Preview (glow, TUI)" },
 
 })
